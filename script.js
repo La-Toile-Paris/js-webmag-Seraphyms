@@ -141,23 +141,23 @@ function getData() {
       });
 
     //Try de triage
-    let buttonTri = document.getElementById("boutonTri");
-    let filteredOriginal = [...selectedArticles]
-    let sortState = 0;
-    // 0 = rien   1 = tri ASC   2 = tri DESC    -> boucle 3clics
-    buttonTri.addEventListener("click", function (){
-      sortState = (sortState + 1) % 3
+    // let buttonTri = document.getElementById("boutonTri");
+    // let filteredOriginal = [...selectedArticles]
+    // let sortState = 0;
+    // // 0 = rien   1 = tri ASC   2 = tri DESC    -> boucle 3clics
+    // buttonTri.addEventListener("click", function (){
+    //   sortState = (sortState + 1) % 3
       
-      if(sortState === 0){
-        render(selectedArticles = [...filteredOriginal])
-      }else if (sortState === 1){
-        render(selectedArticles.sort((a, b) => a.rating - b.rating))
-      }else if (sortState === 2){
-        render(selectedArticles.sort((a, b) => b.rating - a.rating))
-      }else{
-        console.log("Probleme avec le sorting"); 
-      }
-    })
+    //   if(sortState === 0){
+    //     render(selectedArticles = [...filteredOriginal])
+    //   }else if (sortState === 1){
+    //     render(selectedArticles.sort((a, b) => a.rating - b.rating))
+    //   }else if (sortState === 2){
+    //     render(selectedArticles.sort((a, b) => b.rating - a.rating))
+    //   }else{
+    //     console.log("Probleme avec le sorting"); 
+    //   }
+    // })
 
       // // TODO 1: REMPLIR LE HEADER
       // // TODO 2: REMPLIR LA NAVIGATION
