@@ -224,7 +224,7 @@ p {
 .theme-badge {
    display: inline-block;
    background-color: var(--color-secondary);
-   color: var(--text-white);
+   color: var(--text-white)!important;
    padding: 0.3rem 0.8rem;
    font-size: var(--text-sm);
    text-transform: uppercase;
@@ -282,7 +282,7 @@ p {
 
 .article-content h3 {
    margin-bottom: 0.8rem;
-   min-height: 3.5rem;
+   /* min-height: 3.5rem; */
    line-height: 1.3;
 }
 
@@ -351,7 +351,7 @@ p {
 }
 
 .theme-item p {
-   color: var(--text-light);
+   color: var(--text-dark);
    line-height: 1.5;
 }
 

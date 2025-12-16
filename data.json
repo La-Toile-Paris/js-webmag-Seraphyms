@@ -1,0 +1,218 @@
+{
+  "title": "My Little Poney",
+  "subtitle": "Univers coloré et amitié",
+  "logo": "assets/images/logo.svg",
+  "cta": {
+    "text": "Entrer dans l'univers",
+    "label": "Découvrir"
+  },
+  "feature": {
+    "headline": "Histoires et personnages",
+    "summary": "La magie de l'amitié.",
+    "body": "Présentation des personnages, intrigues et valeurs.",
+    "date": "1er Décembre 2025",
+    "topic": "Lore",
+    "author": "Jihann",
+    "imageHero": "assets/texture/texture1.jpg",
+    "rating": 4.6,
+    "views": 9200,
+    "read": "6 min",
+    "tags": [
+      "amitié",
+      "magie",
+      "personnages"
+    ],
+    "titre": "Histoires et personnages",
+    "description": "La magie de l'amitié.",
+    "corps": "Présentation des personnages, intrigues et valeurs.",
+    "theme": "Lore",
+    "auteur": "Jihann"
+  },
+  "stories": [
+    {
+      "headline": "Personnages clés",
+      "summary": "Les héroïnes.",
+      "body": "Portraits et arcs narratifs.",
+      "date": "28 Novembre 2025",
+      "topic": "Personnages",
+      "author": "Rédaction",
+      "image": "assets/texture/texture2.png",
+      "rating": 4.5,
+      "views": 8200,
+      "read": "5 min",
+      "titre": "Personnages clés",
+      "description": "Les héroïnes.",
+      "corps": "Portraits et arcs narratifs.",
+      "theme": "Personnages",
+      "auteur": "Rédaction"
+    },
+    {
+      "headline": "Épisodes marquants",
+      "summary": "Sagas et finales.",
+      "body": "Les moments clés de la série.",
+      "date": "25 Novembre 2025",
+      "topic": "Épisodes",
+      "author": "Jihann",
+      "image": "assets/texture/texture3.jpg",
+      "rating": 4.4,
+      "views": 7600,
+      "read": "5 min",
+      "titre": "Épisodes marquants",
+      "description": "Sagas et finales.",
+      "corps": "Les moments clés de la série.",
+      "theme": "Épisodes",
+      "auteur": "Jihann"
+    },
+    {
+      "headline": "Magie et pouvoirs",
+      "summary": "Sortilèges et talents.",
+      "body": "Exposition des pouvoirs.",
+      "date": "21 Novembre 2025",
+      "topic": "Magie",
+      "author": "Rédaction",
+      "image": "assets/texture/texture4.jpg",
+      "rating": 4.3,
+      "views": 7100,
+      "read": "5 min",
+      "titre": "Magie et pouvoirs",
+      "description": "Sortilèges et talents.",
+      "corps": "Exposition des pouvoirs.",
+      "theme": "Magie",
+      "auteur": "Rédaction"
+    },
+    {
+      "headline": "Mythes et légendes",
+      "summary": "Histoire du monde.",
+      "body": "Origines et équilibres.",
+      "date": "17 Novembre 2025",
+      "topic": "Lore",
+      "author": "Jihann",
+      "image": "assets/texture/texture5.jpg",
+      "rating": 4.2,
+      "views": 6800,
+      "read": "5 min",
+      "titre": "Mythes et légendes",
+      "description": "Histoire du monde.",
+      "corps": "Origines et équilibres.",
+      "theme": "Lore",
+      "auteur": "Jihann"
+    },
+    {
+      "headline": "Amitié et valeurs",
+      "summary": "Messages thématiques.",
+      "body": "Leçons et morale.",
+      "date": "12 Novembre 2025",
+      "topic": "Valeurs",
+      "author": "Rédaction",
+      "image": "assets/texture/texture6.jpg",
+      "rating": 4.1,
+      "views": 6400,
+      "read": "4 min",
+      "titre": "Amitié et valeurs",
+      "description": "Messages thématiques.",
+      "corps": "Leçons et morale.",
+      "theme": "Valeurs",
+      "auteur": "Rédaction"
+    }
+  ],
+  "topics": [
+    {
+      "title": "Magie",
+      "desc": "Amitié et aventures.",
+      "icon": "✨",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#EC4899",
+      "nom": "Magie",
+      "description": "Amitié et aventures."
+    },
+    {
+      "title": "Personnages",
+      "desc": "Héroïnes et profils.",
+      "icon": "🧚",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#3B82F6",
+      "nom": "Personnages",
+      "description": "Héroïnes et profils."
+    },
+    {
+      "title": "Épisodes",
+      "desc": "Sagas et finales.",
+      "icon": "📺",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#10B981",
+      "nom": "Épisodes",
+      "description": "Sagas et finales."
+    },
+    {
+      "title": "Lore",
+      "desc": "Mythes et origines.",
+      "icon": "📖",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#F59E0B",
+      "nom": "Lore",
+      "description": "Mythes et origines."
+    },
+    {
+      "title": "Valeurs",
+      "desc": "Amitié et morale.",
+      "icon": "💖",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#EF4444",
+      "nom": "Valeurs",
+      "description": "Amitié et morale."
+    },
+    {
+      "title": "Univers",
+      "desc": "Équestria et mondes.",
+      "icon": "🌈",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#6B7280",
+      "nom": "Univers",
+      "description": "Équestria et mondes."
+    }
+  ],
+  "contributors": [
+    {
+      "firstName": "Jihann",
+      "expertise": "Fan lore",
+      "bio": "Chroniques et analyses.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "jihann@mlp.com",
+      "articles": 12,
+      "followers": 3000,
+      "prenom": "Jihann",
+      "nom": "",
+      "typeExperience": "Fan lore",
+      "presentation": "Chroniques et analyses.",
+      "image": "assets/texture/texture7.jpg"
+    },
+    {
+      "firstName": "Luna",
+      "expertise": "Analyste série",
+      "bio": "Personnages et arcs.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "luna@mlpfans.com",
+      "articles": 14,
+      "followers": 3100,
+      "prenom": "Luna",
+      "nom": "Starlight",
+      "typeExperience": "Analyste série",
+      "presentation": "Personnages et arcs.",
+      "image": "assets/texture/texture7.jpg"
+    },
+    {
+      "firstName": "Émi",
+      "expertise": "Créative fan art",
+      "bio": "Univers visuel.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "emi@artpony.com",
+      "articles": 13,
+      "followers": 2900,
+      "prenom": "Émi",
+      "nom": "Rose",
+      "typeExperience": "Créative fan art",
+      "presentation": "Univers visuel.",
+      "image": "assets/texture/texture7.jpg"
+    }
+  ]
+}
