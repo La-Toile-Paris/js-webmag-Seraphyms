@@ -34,9 +34,6 @@ function getData() {
       //All
       let buttonAll =`<button class="nav-theme-btn all">Tous</button>`
         containerButtons.insertAdjacentHTML("beforeend", buttonAll)
-        selectedArticles = [...journal.stories];
-        filteredOriginal = [...selectedArticles];
-        sortState = 0;
       let buttonALL = document.querySelector(".all")
           buttonALL.addEventListener("click", function(){
               selectedArticles = journal.stories
@@ -64,7 +61,7 @@ function getData() {
       //Bouton Alert
       let buttonCTA = document.querySelector(".cta-button")
       buttonCTA.addEventListener("click", function (){
-        alert("Merci de nous montrer votre interet")
+        alert("☆ Bienvenue ! ☆")
       })
 
       function scoreEtoile(rating){
@@ -97,7 +94,7 @@ function getData() {
                       <p class="theme-badge">${article.theme}</p>
                       <h3>${article.headline}</h3>
                       <p>${article.summary}</p>
-                      <p>Par ${journal.feature.author} · ${journal.feature.date}</p>
+                      <p>Par ${article.author} · ${article.date}</p>
                       <p>${scoreEtoile(article.rating)}</p>
                     </div>
                     <button class="read-btn">Lire l'article<button>
@@ -141,23 +138,23 @@ function getData() {
       });
 
     //Try de triage
-    // let buttonTri = document.getElementById("boutonTri");
-    // let filteredOriginal = [...selectedArticles]
-    // let sortState = 0;
-    // // 0 = rien   1 = tri ASC   2 = tri DESC    -> boucle 3clics
-    // buttonTri.addEventListener("click", function (){
-    //   sortState = (sortState + 1) % 3
+    let buttonTri = document.getElementById("boutonTri");
+    let filteredOriginal = [...selectedArticles]
+    let sortState = 0;
+    // 0 = rien   1 = tri ASC   2 = tri DESC    -> boucle 3clics
+    buttonTri.addEventListener("click", function (){
+      sortState = (sortState + 1) % 3
       
-    //   if(sortState === 0){
-    //     render(selectedArticles = [...filteredOriginal])
-    //   }else if (sortState === 1){
-    //     render(selectedArticles.sort((a, b) => a.rating - b.rating))
-    //   }else if (sortState === 2){
-    //     render(selectedArticles.sort((a, b) => b.rating - a.rating))
-    //   }else{
-    //     console.log("Probleme avec le sorting"); 
-    //   }
-    // })
+      if(sortState === 0){
+        render(selectedArticles = [...filteredOriginal])
+      }else if (sortState === 1){
+        render(selectedArticles.sort((a, b) => a.rating - b.rating))
+      }else if (sortState === 2){
+        render(selectedArticles.sort((a, b) => b.rating - a.rating))
+      }else{
+        console.log("Probleme avec le sorting"); 
+      }
+    })
 
       // // TODO 1: REMPLIR LE HEADER
       // // TODO 2: REMPLIR LA NAVIGATION
@@ -181,6 +178,6 @@ function getData() {
  // Alert quand on appuie sur le bouton CTA
       // Fait de manière moche : a enjoliver
  // // Fonction de filtrage par thème
- // Classer les articles par popularité ou notation
-      // bruh
+ // //Classer les articles par popularité ou notation
+      // //classé par notation :3
  

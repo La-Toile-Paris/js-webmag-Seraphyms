@@ -1,8 +1,8 @@
 /* CSS VARIABLES */
 :root {
    /* Colors */
-   --color-primary: #2a2a2a;
-   --color-secondary: #666;
+   --color-primary: #27024a;
+   --color-secondary: #5847AA;
    --color-white: #fff;
    
    /* Backgrounds */
@@ -97,7 +97,10 @@ p {
 
 /* HEADER */
 .header {
-   background-color: var(--color-primary);
+   background-image: url("assets/images/backtitle.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
    color: var(--text-white);
    padding: var(--space-lg) 0;
    text-align: center;
@@ -146,7 +149,7 @@ p {
 }
 
 .nav-theme-btn:hover {
-   background-color: var(--color-primary);
+   background-color: #be6fff var(--color-primary);
    border-color: var(--bg-lighter);
 }
 
@@ -299,7 +302,7 @@ p {
    margin-bottom: var(--space-sm);
 }
 
-.read-btn {
+.read-btn, #boutonTri{
    background-color: var(--color-secondary);
    color: var(--text-white);
    border: none;
@@ -311,6 +314,12 @@ p {
    transition: all var(--transition);
    margin-top: auto;
 }
+
+#boutonTri {
+  margin: 1.5rem auto;
+  display: block;
+}
+
 
 .read-btn:hover {
    background-color: var(--color-primary);

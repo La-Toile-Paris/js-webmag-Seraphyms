@@ -12,8 +12,8 @@
     "body": "Présentation des personnages, intrigues et valeurs.",
     "date": "1er Décembre 2025",
     "topic": "Lore",
-    "author": "Jihann",
-    "imageHero": "assets/texture/texture1.jpg",
+    "author": "Fluttershy",
+    "imageHero": "assets/images/Articles/0_.jpg",
     "rating": 4.6,
     "views": 9200,
     "read": "6 min",
@@ -26,7 +26,7 @@
     "description": "La magie de l'amitié.",
     "corps": "Présentation des personnages, intrigues et valeurs.",
     "theme": "Lore",
-    "auteur": "Jihann"
+    "auteur": "Fluttershy"
   },
   "stories": [
     {
@@ -35,16 +35,16 @@
       "body": "Portraits et arcs narratifs.",
       "date": "28 Novembre 2025",
       "topic": "Personnages",
-      "author": "Rédaction",
-      "image": "assets/texture/texture2.png",
-      "rating": 4.5,
+      "author": "Rarity",
+      "image": "assets/images/Articles/1_.jpg",
+      "rating": 4,
       "views": 8200,
       "read": "5 min",
       "titre": "Personnages clés",
       "description": "Les héroïnes.",
       "corps": "Portraits et arcs narratifs.",
       "theme": "Personnages",
-      "auteur": "Rédaction"
+      "auteur": "Rarity"
     },
     {
       "headline": "Épisodes marquants",
@@ -52,16 +52,16 @@
       "body": "Les moments clés de la série.",
       "date": "25 Novembre 2025",
       "topic": "Épisodes",
-      "author": "Jihann",
-      "image": "assets/texture/texture3.jpg",
-      "rating": 4.4,
+      "author": "Starlight",
+      "image": "assets/images/Articles/2_.jpg",
+      "rating": 4.8,
       "views": 7600,
       "read": "5 min",
       "titre": "Épisodes marquants",
       "description": "Sagas et finales.",
       "corps": "Les moments clés de la série.",
       "theme": "Épisodes",
-      "auteur": "Jihann"
+      "auteur": "Starlight"
     },
     {
       "headline": "Magie et pouvoirs",
@@ -69,16 +69,16 @@
       "body": "Exposition des pouvoirs.",
       "date": "21 Novembre 2025",
       "topic": "Magie",
-      "author": "Rédaction",
-      "image": "assets/texture/texture4.jpg",
-      "rating": 4.3,
+      "author": "Rarity",
+      "image": "assets/images/Articles/3_.jpg",
+      "rating": 4.2,
       "views": 7100,
       "read": "5 min",
       "titre": "Magie et pouvoirs",
       "description": "Sortilèges et talents.",
       "corps": "Exposition des pouvoirs.",
       "theme": "Magie",
-      "auteur": "Rédaction"
+      "auteur": "Rarity"
     },
     {
       "headline": "Mythes et légendes",
@@ -86,16 +86,16 @@
       "body": "Origines et équilibres.",
       "date": "17 Novembre 2025",
       "topic": "Lore",
-      "author": "Jihann",
-      "image": "assets/texture/texture5.jpg",
-      "rating": 4.2,
+      "author": "Starlight",
+      "image": "assets/images/Articles/4_.jpg",
+      "rating": 4.3,
       "views": 6800,
       "read": "5 min",
       "titre": "Mythes et légendes",
       "description": "Histoire du monde.",
       "corps": "Origines et équilibres.",
       "theme": "Lore",
-      "auteur": "Jihann"
+      "auteur": "Starlight"
     },
     {
       "headline": "Amitié et valeurs",
@@ -103,16 +103,16 @@
       "body": "Leçons et morale.",
       "date": "12 Novembre 2025",
       "topic": "Valeurs",
-      "author": "Rédaction",
-      "image": "assets/texture/texture6.jpg",
-      "rating": 4.1,
+      "author": "Fluttershy",
+      "image": "assets/images/Articles/5_.jpg",
+      "rating": 3.9,
       "views": 6400,
       "read": "4 min",
       "titre": "Amitié et valeurs",
       "description": "Messages thématiques.",
       "corps": "Leçons et morale.",
       "theme": "Valeurs",
-      "auteur": "Rédaction"
+      "auteur": "Fluttershy"
     }
   ],
   "topics": [
@@ -121,7 +121,7 @@
       "desc": "Amitié et aventures.",
       "icon": "✨",
       "image": "assets/texture/texture7.jpg",
-      "color": "#EC4899",
+      "color": "#f8c368",
       "nom": "Magie",
       "description": "Amitié et aventures."
     },
@@ -130,7 +130,7 @@
       "desc": "Héroïnes et profils.",
       "icon": "🧚",
       "image": "assets/texture/texture7.jpg",
-      "color": "#3B82F6",
+      "color": "#ff8383",
       "nom": "Personnages",
       "description": "Héroïnes et profils."
     },
@@ -139,7 +139,7 @@
       "desc": "Sagas et finales.",
       "icon": "📺",
       "image": "assets/texture/texture7.jpg",
-      "color": "#10B981",
+      "color": "#fd85c1",
       "nom": "Épisodes",
       "description": "Sagas et finales."
     },
@@ -148,7 +148,7 @@
       "desc": "Mythes et origines.",
       "icon": "📖",
       "image": "assets/texture/texture7.jpg",
-      "color": "#F59E0B",
+      "color": "#70ffcf",
       "nom": "Lore",
       "description": "Mythes et origines."
     },
@@ -157,7 +157,7 @@
       "desc": "Amitié et morale.",
       "icon": "💖",
       "image": "assets/texture/texture7.jpg",
-      "color": "#EF4444",
+      "color": "#79acff",
       "nom": "Valeurs",
       "description": "Amitié et morale."
     },
@@ -166,53 +166,53 @@
       "desc": "Équestria et mondes.",
       "icon": "🌈",
       "image": "assets/texture/texture7.jpg",
-      "color": "#6B7280",
+      "color": "#be6fff",
       "nom": "Univers",
       "description": "Équestria et mondes."
     }
   ],
   "contributors": [
     {
-      "firstName": "Jihann",
+      "firstName": "Starlight",
       "expertise": "Fan lore",
       "bio": "Chroniques et analyses.",
-      "avatar": "assets/texture/texture7.jpg",
-      "email": "jihann@mlp.com",
+      "avatar": "assets/images/Authors/Star.jpg",
+      "email": "star@mlp.com",
       "articles": 12,
       "followers": 3000,
-      "prenom": "Jihann",
+      "prenom": "Starlight",
       "nom": "",
       "typeExperience": "Fan lore",
       "presentation": "Chroniques et analyses.",
-      "image": "assets/texture/texture7.jpg"
+      "image": "assets/images/Authors/Star.jpg"
     },
     {
       "firstName": "Luna",
       "expertise": "Analyste série",
       "bio": "Personnages et arcs.",
-      "avatar": "assets/texture/texture7.jpg",
+      "avatar": "assets/images/Authors/luna.jpg",
       "email": "luna@mlpfans.com",
       "articles": 14,
       "followers": 3100,
       "prenom": "Luna",
-      "nom": "Starlight",
+      "nom": "Celestial",
       "typeExperience": "Analyste série",
       "presentation": "Personnages et arcs.",
-      "image": "assets/texture/texture7.jpg"
+      "image": "assets/images/Authors/luna.jpg"
     },
     {
-      "firstName": "Émi",
+      "firstName": "Rarity",
       "expertise": "Créative fan art",
       "bio": "Univers visuel.",
-      "avatar": "assets/texture/texture7.jpg",
-      "email": "emi@artpony.com",
+      "avatar": "assets/images/Authors/Rarity.jpg",
+      "email": "rari@artpony.com",
       "articles": 13,
       "followers": 2900,
-      "prenom": "Émi",
-      "nom": "Rose",
+      "prenom": "Rarity",
+      "nom": "Blues",
       "typeExperience": "Créative fan art",
       "presentation": "Univers visuel.",
-      "image": "assets/texture/texture7.jpg"
+      "image": "assets/images/Authors/Rarity.jpg"
     }
   ]
 }
