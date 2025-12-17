@@ -187,7 +187,7 @@
     {
       "title": "Magie",
       "desc": "Amitié et aventures.",
-      "icon": "✨",
+      "icon": "➴",
       "image": "assets/texture/texture7.jpg",
       "color": "#6249A6",
       "nom": "Magie",
@@ -196,7 +196,7 @@
     {
       "title": "Personnages",
       "desc": "Héroïnes et profils.",
-      "icon": "🧚",
+      "icon": "♤",
       "image": "assets/texture/texture7.jpg",
       "color": "#6D59B3",
       "nom": "Personnages",
@@ -205,7 +205,7 @@
     {
       "title": "Épisodes",
       "desc": "Sagas et finales.",
-      "icon": "📺",
+      "icon": "✾",
       "image": "assets/texture/texture7.jpg",
       "color": "#7768C0",
       "nom": "Épisodes",
@@ -214,7 +214,7 @@
     {
       "title": "Lore",
       "desc": "Mythes et origines.",
-      "icon": "📖",
+      "icon": "☽",
       "image": "assets/texture/texture7.jpg",
       "color": "#8678CB",
       "nom": "Lore",
@@ -223,7 +223,7 @@
     {
       "title": "Valeurs",
       "desc": "Amitié et morale.",
-      "icon": "💖",
+      "icon": "♡",
       "image": "assets/texture/texture7.jpg",
       "color": "#9588D6",
       "nom": "Valeurs",
@@ -232,7 +232,7 @@
     {
       "title": "Univers",
       "desc": "Équestria et mondes.",
-      "icon": "🌈",
+      "icon": "✧",
       "image": "assets/texture/texture7.jpg",
       "color": "#9F93DA",
       "nom": "Univers",

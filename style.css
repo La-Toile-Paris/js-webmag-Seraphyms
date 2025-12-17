@@ -163,7 +163,7 @@ p {
 
 /* HERO SECTION */
 .hero {
-   background-color: var(--color-white);
+   background-color: #e3caec;
    padding: 0;
    border-bottom: 3px solid var(--bg-lighter);
 }
@@ -177,7 +177,6 @@ p {
    width: 100vw;
    height: 100vh;
    object-fit: cover;
-   border-bottom: 3px solid var(--bg-lighter);
 }
 
 .hero-info {
@@ -223,6 +222,11 @@ p {
 .read-article-btn:hover {
    background-color: var(--color-secondary);
    transform: translateY(-2px);
+}
+
+#notevue{
+   display: flex;
+   justify-content: space-between;
 }
 
 /* BADGES */
@@ -304,7 +308,14 @@ p {
    margin-bottom: var(--space-sm);
 }
 
-.read-btn, #boutonTri{
+#lesboutons{
+   gap:5px;
+   display: flex;
+   justify-content: flex-end;
+   padding: 10px;
+}
+
+.read-btn{
    background-color: var(--color-secondary);
    color: var(--text-white);
    border: none;
@@ -317,9 +328,19 @@ p {
    margin-top: auto;
 }
 
-#boutonTri {
-  margin: 1.5rem auto;
-  display: block;
+.boutonTri{
+   background-color: var(--color-secondary);
+   color: var(--text-white);
+   border: none;
+   padding: 0.5rem;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   font-size: var(--text-sm);
+   letter-spacing: 0.5px;
+   transition: all var(--transition);
+   margin:0;
+   display: inline-flex;
 }
 
 .read-btn:hover {

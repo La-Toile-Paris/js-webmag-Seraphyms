@@ -17,6 +17,7 @@ function getData() {
       let filteredArticles = [...journal.stories];
       let selectedArticles = [...filteredArticles]; 
       let sortState = 0;
+      let sortState1 = 0;
       
 
       //Containeurs
@@ -31,6 +32,10 @@ function getData() {
                                                                                   <h2 id="hero-titre">${journal.feature.headline}</h2>
                                                                                   <p id="hero-description">${journal.feature.description}</p>
                                                                                   <p id="hero-auteur">Par <b>${journal.feature.author}</b> · ${journal.feature.date}</p>
+                                                                                  <div id="notevue">
+                                                                                    <p>${scoreEtoile(journal.feature.rating)} </p>
+                                                                                    <p>Vues : ${journal.feature.views}</p>
+                                                                                  </div>
                                                                                   <button class="read-article-btn">Lire l'article</button>
                                                                                   </div>`
     //Buttons
@@ -40,7 +45,7 @@ function getData() {
       let buttonALL = document.querySelector(".all")
           buttonALL.addEventListener("click", function(){
               selectedArticles = [...journal.stories];
-              filteredArticles = [...selectedArticles]; // met à jour la liste filtrée
+              filteredArticles = [...selectedArticles];
               sortState = 0;
               render(selectedArticles);
               buttons.forEach(b => b.classList.remove("active"));
@@ -49,7 +54,7 @@ function getData() {
       
       //Autres
       journal.topics.forEach(topic => {
-        let button =`<button class="nav-theme-btn spe">${topic.icon}${topic.nom}</button>`
+        let button =`<button class="nav-theme-btn spe">${topic.icon}  ${topic.nom}</button>`
         containerButtons.insertAdjacentHTML("beforeend", button)
       });
       let buttons = document.querySelectorAll(".spe")
@@ -102,7 +107,9 @@ function getData() {
                       <h3>${article.headline}</h3>
                       <p>${article.summary}</p>
                       <p>Par ${article.author} · ${article.date}</p>
-                      <p>${scoreEtoile(article.rating)}</p>
+                      <div id="notevue">
+                      <p>${scoreEtoile(article.rating)} </p>
+                      <p>Vues : ${article.views}</p>
                     </div>
                     <button class="read-btn">Lire l'article<button>
                     </div>`
@@ -145,10 +152,9 @@ function getData() {
       });
 
     //Try de triage
-    let buttonTri = document.getElementById("boutonTri");
-    let filteredOriginal = [...selectedArticles]
+    let buttonTriNote = document.getElementById("Note");
     // 0 = rien   1 = tri ASC   2 = tri DESC    -> boucle 3clics
-    buttonTri.addEventListener("click", function() {
+    buttonTriNote.addEventListener("click", function() {
       sortState = (sortState + 1) % 3;
       if(sortState === 0) {
           // revenir à la liste filtrée actuelle
@@ -157,6 +163,21 @@ function getData() {
           selectedArticles = [...selectedArticles].sort((a, b) => a.rating - b.rating);
       } else if(sortState === 2) {
           selectedArticles = [...selectedArticles].sort((a, b) => b.rating - a.rating);
+      }
+    render(selectedArticles);
+    })
+
+     let buttonTriVisite = document.getElementById("Visite");
+    // 0 = rien   1 = tri ASC   2 = tri DESC    -> boucle 3clics
+    buttonTriVisite.addEventListener("click", function() {
+      sortState1 = (sortState1 + 1) % 3;
+      if(sortState1 === 0) {
+          // revenir à la liste filtrée actuelle
+          selectedArticles = [...filteredArticles];
+      } else if(sortState1 === 1) {
+          selectedArticles = [...selectedArticles].sort((a, b) => a.views - b.views);
+      } else if(sortState1 === 2) {
+          selectedArticles = [...selectedArticles].sort((a, b) => b.views - a.views);
       }
     render(selectedArticles);
     })
