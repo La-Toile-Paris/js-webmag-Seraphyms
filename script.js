@@ -32,7 +32,7 @@ function getData() {
                                                                                   </div>`
     //Buttons
       //All
-      let buttonAll =`<button class="nav-theme-btn all">Tous</button>`
+      let buttonAll =`<button class="nav-theme-btn all active">Tous</button>`
         containerButtons.insertAdjacentHTML("beforeend", buttonAll)
       let buttonALL = document.querySelector(".all")
           buttonALL.addEventListener("click", function(){
