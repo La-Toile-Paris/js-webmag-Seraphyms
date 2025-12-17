@@ -56,7 +56,7 @@ function getData() {
       buttons.forEach((button, i) => {
         button.addEventListener("click", function(){
           selectedArticles = journal.stories.filter(thing => thing.topic === journal.topics[i].nom);
-          filteredArticles = [...selectedArticles]; // mise à jour de la liste filtrée
+          filteredArticles = [...selectedArticles]; 
           sortState = 0;
           render(selectedArticles);
           buttons.forEach(b => b.classList.remove("active"));
