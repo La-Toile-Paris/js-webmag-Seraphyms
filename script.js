@@ -14,7 +14,10 @@ function getData() {
       //Base
       let title = document.getElementById("nom-journal").innerHTML=`${journal.title}`;
       let subtitle = document.getElementById("phrase-accroche").innerHTML =`${journal.subtitle}`;
-      let selectedArticles = journal.stories;
+      let filteredArticles = [...journal.stories];
+      let selectedArticles = [...filteredArticles]; 
+      let sortState = 0;
+      
 
       //Containeurs
       let containerArticles = document.getElementById("articles-grid")
@@ -36,10 +39,12 @@ function getData() {
         containerButtons.insertAdjacentHTML("beforeend", buttonAll)
       let buttonALL = document.querySelector(".all")
           buttonALL.addEventListener("click", function(){
-              selectedArticles = journal.stories
-              render(selectedArticles)
+              selectedArticles = [...journal.stories];
+              filteredArticles = [...selectedArticles]; // met à jour la liste filtrée
+              sortState = 0;
+              render(selectedArticles);
               buttons.forEach(b => b.classList.remove("active"));
-              buttonALL.classList.add("active");
+            buttonALL.classList.add("active");
           })
       
       //Autres
@@ -50,11 +55,13 @@ function getData() {
       let buttons = document.querySelectorAll(".spe")
       buttons.forEach((button, i) => {
         button.addEventListener("click", function(){
-          selectedArticles = journal.stories.filter(thing => thing.topic === `${journal.topics[i].nom}`)
-          render(selectedArticles)
+          selectedArticles = journal.stories.filter(thing => thing.topic === journal.topics[i].nom);
+          filteredArticles = [...selectedArticles]; // mise à jour de la liste filtrée
+          sortState = 0;
+          render(selectedArticles);
           buttons.forEach(b => b.classList.remove("active"));
-          buttonALL.classList.remove("active");
-          button.classList.add("active");
+            buttonALL.classList.remove("active");
+            button.classList.add("active");
         })
       });
       
@@ -140,22 +147,19 @@ function getData() {
     //Try de triage
     let buttonTri = document.getElementById("boutonTri");
     let filteredOriginal = [...selectedArticles]
-    let sortState = 0;
     // 0 = rien   1 = tri ASC   2 = tri DESC    -> boucle 3clics
-    buttonTri.addEventListener("click", function (){
-      sortState = (sortState + 1) % 3
-      
-      if(sortState === 0){
-        render(selectedArticles = [...filteredOriginal])
-      }else if (sortState === 1){
-        render(selectedArticles.sort((a, b) => a.rating - b.rating))
-      }else if (sortState === 2){
-        render(selectedArticles.sort((a, b) => b.rating - a.rating))
-      }else{
-        console.log("Probleme avec le sorting"); 
+    buttonTri.addEventListener("click", function() {
+      sortState = (sortState + 1) % 3;
+      if(sortState === 0) {
+          // revenir à la liste filtrée actuelle
+          selectedArticles = [...filteredArticles];
+      } else if(sortState === 1) {
+          selectedArticles = [...selectedArticles].sort((a, b) => a.rating - b.rating);
+      } else if(sortState === 2) {
+          selectedArticles = [...selectedArticles].sort((a, b) => b.rating - a.rating);
       }
+    render(selectedArticles);
     })
-
       // // TODO 1: REMPLIR LE HEADER
       // // TODO 2: REMPLIR LA NAVIGATION
           //// rendre les boutons activé!

@@ -14,7 +14,7 @@
     "topic": "Lore",
     "author": "Fluttershy",
     "imageHero": "assets/images/Articles/0_.jpg",
-    "rating": 4.6,
+    "rating": 4.7,
     "views": 9200,
     "read": "6 min",
     "tags": [
@@ -30,8 +30,8 @@
   },
   "stories": [
     {
-      "headline": "Personnages clés",
-      "summary": "Les héroïnes.",
+      "headline": "Les Personnages Clés et Héroïnes Incontournables d’Equestria",
+      "summary": "Les héroïnes de My Little Pony ne sont pas seulement des personnages attachants, elles sont le cœur de l’histoire et les vecteurs des messages transmits",
       "body": "Portraits et arcs narratifs.",
       "date": "28 Novembre 2025",
       "topic": "Personnages",
@@ -47,8 +47,59 @@
       "auteur": "Rarity"
     },
     {
-      "headline": "Épisodes marquants",
-      "summary": "Sagas et finales.",
+      "headline": "Événements et Festivals Magiques",
+      "summary": "Plongez dans les célébrations, fêtes et événements qui font vibrer le monde d’Equestria. Des festivals traditionnels aux moments exceptionnels, découvrez comment ces événements renforcent les liens d’amitié.",
+      "body": "Présentation des festivals et célébrations dans l’univers MLP.",
+      "date": "5 Décembre 2025",
+      "topic": "Lore",
+      "author": "Luna",
+      "image": "assets/images/Articles/7_.jpg",
+      "rating": 4.7,
+      "views": 6200,
+      "read": "5 min",
+      "titre": "Événements et Festivals Magiques",
+      "description": "Festivals et célébrations incontournables.",
+      "corps": "Présentation des festivals et célébrations dans l’univers MLP.",
+      "theme": "Lore",
+      "auteur": "Luna"
+    },
+    {
+      "headline": "Créatures et Compagnons Magiques",
+      "summary": "Découvrez les créatures fantastiques et compagnons qui peuplent le monde de My Little Pony, de Spike le dragon aux animaux enchantés. Chaque créature a un rôle unique, apportant aide, sagesse et humour aux aventures des héros d’Equestria.",
+      "body": "Présentation des créatures et animaux importants de l’univers MLP.",
+      "date": "10 Décembre 2025",
+      "topic": "Univers",
+      "author": "Rarity",
+      "image": "assets/images/Articles/8_.jpg",
+      "rating": 4.5,
+      "views": 6000,
+      "read": "5 min",
+      "titre": "Créatures et Compagnons Magiques",
+      "description": "Les alliés fantastiques des poneys.",
+      "corps": "Présentation des créatures et animaux importants de l’univers MLP.",
+      "theme": "Univers",
+      "auteur": "Rarity"
+    },
+    {
+      "headline": "Lieux et Royaumes d’Equestria",
+      "summary": "Explorez les villes, royaumes et lieux emblématiques de My Little Pony, de Ponyville à Canterlot et au-delà. Chaque lieu possède son histoire, sa magie et ses habitants.",
+      "body": "Zoom sur les lieux majeurs de la série et leur importance dans l’univers.",
+      "date": "15 Décembre 2025",
+      "topic": "Épisodes",
+      "author": "Fluttershy",
+      "image": "assets/images/Articles/9_.jpg",
+      "rating": 5,
+      "views": 6300,
+      "read": "6 min",
+      "titre": "Lieux et Royaumes d’Equestria",
+      "description": "Villes, royaumes et lieux emblématiques.",
+      "corps": "Zoom sur les lieux majeurs de la série et leur importance dans l’univers.",
+      "theme": "Épisodes",
+      "auteur": "Fluttershy"
+    },
+    {
+      "headline": "Épisodes Inoubliables de My Little Pony",
+      "summary": "Plongez dans les sagas les plus captivantes et les finales mémorables de la série. Découvrez les moments qui ont bouleversé Ponyville et Equestria!",
       "body": "Les moments clés de la série.",
       "date": "25 Novembre 2025",
       "topic": "Épisodes",
@@ -64,8 +115,8 @@
       "auteur": "Starlight"
     },
     {
-      "headline": "Magie et pouvoirs",
-      "summary": "Sortilèges et talents.",
+      "headline": "La Magie et les Talents des Poneys",
+      "summary": "Explorez les incroyables pouvoirs et talents de nos héros. Des sortilèges fascinants aux capacités uniques de chaque personnage, apprenez comment la magie façonne les aventures d’Equestria",
       "body": "Exposition des pouvoirs.",
       "date": "21 Novembre 2025",
       "topic": "Magie",
@@ -81,8 +132,8 @@
       "auteur": "Rarity"
     },
     {
-      "headline": "Mythes et légendes",
-      "summary": "Histoire du monde.",
+      "headline": "Les Mythes et Légendes d’Equestria",
+      "summary": "Découvrez les récits anciens et les légendes mystérieuses qui ont façonné le monde d’Equestria. Plongez dans l’histoire de ses royaumes, ses créatures légendaires et ses événements mythique.",
       "body": "Origines et équilibres.",
       "date": "17 Novembre 2025",
       "topic": "Lore",
@@ -98,8 +149,8 @@
       "auteur": "Starlight"
     },
     {
-      "headline": "Amitié et valeurs",
-      "summary": "Messages thématiques.",
+      "headline": "L’Amitié et les Leçons de Vie à Ponyville",
+      "summary": "Apprenez les messages et morales essentiels que la série transmet à travers chaque épisode. Des leçons sur l’entraide, le courage, la tolérance et l’amitié durable.",
       "body": "Leçons et morale.",
       "date": "12 Novembre 2025",
       "topic": "Valeurs",
@@ -113,6 +164,23 @@
       "corps": "Leçons et morale.",
       "theme": "Valeurs",
       "auteur": "Fluttershy"
+    },
+    {
+      "headline": "Les Amis d’Equestria",
+      "summary": "Rencontrez les personnages secondaires qui enrichissent le monde de My Little Pony, apportant humour, soutien et profondeur aux aventures principales.",
+      "body": "Exploration des personnages secondaires et de leur rôle dans les histoires.",
+      "date": "30 Novembre 2025",
+      "topic": "Personnages",
+      "author": "Luna",
+      "image": "assets/images/Articles/6_.jpg",
+      "rating": 4.6,
+      "views": 5800,
+      "read": "6 min",
+      "titre": "Les Amis d’Equestria",
+      "description": "Personnages secondaires incontournables.",
+      "corps": "Exploration des personnages secondaires et de leur rôle dans les histoires.",
+      "theme": "Personnages",
+      "auteur": "Luna"
     }
   ],
   "topics": [
@@ -121,7 +189,7 @@
       "desc": "Amitié et aventures.",
       "icon": "✨",
       "image": "assets/texture/texture7.jpg",
-      "color": "#f8c368",
+      "color": "#6249A6",
       "nom": "Magie",
       "description": "Amitié et aventures."
     },
@@ -130,7 +198,7 @@
       "desc": "Héroïnes et profils.",
       "icon": "🧚",
       "image": "assets/texture/texture7.jpg",
-      "color": "#ff8383",
+      "color": "#6D59B3",
       "nom": "Personnages",
       "description": "Héroïnes et profils."
     },
@@ -139,7 +207,7 @@
       "desc": "Sagas et finales.",
       "icon": "📺",
       "image": "assets/texture/texture7.jpg",
-      "color": "#fd85c1",
+      "color": "#7768C0",
       "nom": "Épisodes",
       "description": "Sagas et finales."
     },
@@ -148,7 +216,7 @@
       "desc": "Mythes et origines.",
       "icon": "📖",
       "image": "assets/texture/texture7.jpg",
-      "color": "#70ffcf",
+      "color": "#8678CB",
       "nom": "Lore",
       "description": "Mythes et origines."
     },
@@ -157,7 +225,7 @@
       "desc": "Amitié et morale.",
       "icon": "💖",
       "image": "assets/texture/texture7.jpg",
-      "color": "#79acff",
+      "color": "#9588D6",
       "nom": "Valeurs",
       "description": "Amitié et morale."
     },
@@ -166,7 +234,7 @@
       "desc": "Équestria et mondes.",
       "icon": "🌈",
       "image": "assets/texture/texture7.jpg",
-      "color": "#be6fff",
+      "color": "#9F93DA",
       "nom": "Univers",
       "description": "Équestria et mondes."
     }
