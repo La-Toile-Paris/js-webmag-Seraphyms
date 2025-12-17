@@ -10,7 +10,7 @@
    --bg-lighter: #f9e9ff;
    
    /* Text */
-   --text-dark: #513a60;
+   --text-dark: #34263e;
    --text-light: #9b6eb8;
    --text-white: #fff;
    
@@ -123,7 +123,6 @@ p {
 .navbar {
    background-color: var(--color-primary);
    padding: var(--space-sm) 0;
-   border-bottom: 2px solid var(--color-secondary);
    position: sticky;
    top: 0;
    z-index: 100;
